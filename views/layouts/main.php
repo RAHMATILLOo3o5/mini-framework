@@ -23,6 +23,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/chat">Chat</a>
+            </li>
+            <li class="nav-item">
+                <a href="/image-generation" class="nav-link">Image Generation</a>
+            </li>
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
@@ -34,9 +40,9 @@
         </ul>
     </div>
 </nav>
-    <div class="container-fluid">
-        {{content}}
-    </div>
+<div class="container-fluid">
+    {{content}}
+</div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

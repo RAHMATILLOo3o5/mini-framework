@@ -11,7 +11,7 @@ class AuthController extends Controller
     /**
      * login
      *
-     * @return void
+     * @return array|bool|string
      */
     public function login()
     {
@@ -22,7 +22,7 @@ class AuthController extends Controller
     /**
      * register
      *
-     * @return void
+     * @return array|bool|string
      */
     public function register(Request $request)
     {
